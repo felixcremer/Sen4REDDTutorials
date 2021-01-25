@@ -1,6 +1,14 @@
 name = "Sen4REDD_tutorials"
 authors = ["Felix Cremer"]
+
+[deps]
+ArchGDAL = "c9ce4bd3-c3d5-55b8-8973-c0e20141b8c3"
+DisplayAs = "0b91fe84-8a4c-11e9-3e1d-67c38462b6d6"
+DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+ESDL = "359177bc-a543-11e8-11b7-bb015dba3358"
+Glob = "c27321d9-0574-5035-807b-f59d2c89b15c"
+Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
+YAXArrays = "c21b50f5-aa40-41ea-b809-c0f5e47bfa5c"
+
 [compat]
 julia = "1.5.0"
-[deps]
-DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"

@@ -65,9 +65,6 @@ To do that we need a list of raster datasets which have the same spatial resolut
 md"## Load relevant packages
 First we need to load the relevant packages."
 
-# ╔═╡ 29886c0a-5cb9-11eb-1203-77487bd1d00e
-
-
 # ╔═╡ af21a08c-5b0c-11eb-0eda-c918eb6bd74b
 md"## Select the input data
 We need to set the directory where our input data is located. 
@@ -298,8 +295,11 @@ end;
 # ╔═╡ defd3ef8-5b3f-11eb-1cdf-51a4b7ae925a
 fullcube |>DisplayAs.Text
 
+# ╔═╡ d58c66b1-4a72-4e4e-92e5-f1f16899d9cf
+fullcube[100,100,10,:]
+
 # ╔═╡ Cell order:
-# ╟─18a428af-faca-4b4a-97e7-0448e7fc573a
+# ╠═18a428af-faca-4b4a-97e7-0448e7fc573a
 # ╟─09fd3af0-5b0d-11eb-3474-29b9d72d6ab6
 # ╟─2744eda6-5b0d-11eb-1cb9-43150a1072e3
 # ╟─a3620b3a-5b0d-11eb-2cdd-2b16725a420c
@@ -309,7 +309,6 @@ fullcube |>DisplayAs.Text
 # ╟─28428d84-5b0c-11eb-094f-bfa8b9f57151
 # ╟─ed5fe8c0-5b0c-11eb-3a56-3586e748a59d
 # ╟─9b8003d6-5b3f-11eb-3264-d1ff9e8ff195
-# ╠═29886c0a-5cb9-11eb-1203-77487bd1d00e
 # ╟─af21a08c-5b0c-11eb-0eda-c918eb6bd74b
 # ╠═c66ea2e8-5b0b-11eb-32a0-43848aa3a425
 # ╟─6fa49dd4-5bd1-11eb-16b8-1bf744b159fe
@@ -339,6 +338,7 @@ fullcube |>DisplayAs.Text
 # ╠═b7048a82-5b3f-11eb-2750-bd06926f2184
 # ╠═be71d8bc-5b3f-11eb-0389-8d8523e08f1e
 # ╠═defd3ef8-5b3f-11eb-1cdf-51a4b7ae925a
+# ╠═d58c66b1-4a72-4e4e-92e5-f1f16899d9cf
 # ╟─1794dd33-c0b7-4f18-ad57-75b4eface861
 # ╟─d489fee0-5b42-11eb-13f6-8312665a9b35
 # ╟─bd69cbdc-5b0b-11eb-1b95-9f142ddd2fec
